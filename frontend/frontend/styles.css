@@ -1,0 +1,36 @@
+body{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+}
+
+
+#main{
+    width:325px;
+    margin: 125 auto;
+}
+.email-input{
+    margin-top: 0;
+}
+.common{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.forgotpassword{
+    margin-top:0px;
+    font-size:12px;
+}
+
+.no_account{
+    font-size:10px;
+}
+
+button{
+    width:175px;
+    padding: 5px 10px;
+}
+
+input{
+    padding: 5px 10px;
+    font-size: 12px;
+    width :175 px;
+}
