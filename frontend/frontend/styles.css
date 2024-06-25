@@ -34,3 +34,8 @@ input{
     font-size: 12px;
     width :175 px;
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 80%;
+    }
+}

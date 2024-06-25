@@ -20,7 +20,7 @@ class InventoryItem(Base):
     Item_Description = Column(Text)
     Item_Price = Column(DECIMAL, nullable=False)
     Item_Qty = Column(Integer, nullable=False)
-    Category_ID = Column(Integer, ForeignKey('inventoryitem.Item_SKU'), nullable=True)
+    Category_ID = Column(Integer, ForeignKey('inventoryitem.Item_SKU'), nullable=True)gt
     
     parent_category = relationship('InventoryItem', remote_side=[Item_SKU], backref='subcategories')
 
